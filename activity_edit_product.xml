@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textEditList"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="?attr/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:lineSpacingExtra="12sp"
+        android:text="EDITAR LISTA"
+        android:textColor="#FEFCFC"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Nome" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Descrição " />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Preço"
+        android:inputType="numberDecimal" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Quantidade"
+        android:inputType="number" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/categoryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Categoria" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Salvar"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Deletar"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary" />
+
+</LinearLayout>
